@@ -21,9 +21,8 @@ This website is designed to be responsive on a range of electronic devices and e
     * **Typography**
     * **Imagery**
 * ### **Wireframes**
-    * **Home Page for iPhone** - [View](https://github.com/oksanaokhten/green-feet/assets/images/iPhone.png)
-    * **Home Page for iPad** - [View](https://github.com/oksanaokhten/green-feet/assets/images/iPad.png)
-    * **Home Page for Desktop** - [View](https://github.com/oksanaokhten/green-feet/assets/images/desktop.png)
+    * **Home Page for iPhone, iPad and desktop:** 
+    ![Green Feet](/assets/images/green.feet.png)
 ## **Features**
 * **Responsive on all device sizes**
 * **Interactive elements**

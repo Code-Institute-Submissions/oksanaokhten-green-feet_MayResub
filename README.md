@@ -55,6 +55,7 @@ The project was deployed on GitHub Pages using the following steps:
 ### **Making a Local Clone**
 ## **Credits**
 ### **Code**
+https://getbootstrap.com/docs/4.3/components/navbar/
 ### **Content**
 ### **Media**
 ### **Acknowledgements**

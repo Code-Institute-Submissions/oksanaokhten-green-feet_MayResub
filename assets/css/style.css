@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@400;600&display=swap');
+
+/*----------------------------------------------Special paddings/margins/text*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-font {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+h1,
+h2,
+h3 h4,
+h5 {
+    margin: 0px;
+}
+
+/*----------------------------------------------Navigation*/
+
+.right-end-links {
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+}
+
+.green {
+    color: #19e25c;
+}
+
+.blue {
+    color: rgb(43, 205, 226);
+}
+
+.yellow {
+    color: hsl(60, 87%, 46%);
+}
+
+.orange {
+    color: hsl(27, 79%, 49%);
+}
+
+.violet {
+    color: violet;
+}
+
+/*----------------------------------------------Hero image*/
+
+/* Hero image code was taken from Whisky-drop tutorial and changed in background property. */
+
+#hero-image {
+    height: 100vh;
+    background: url("../images/hero-image.jpg") no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

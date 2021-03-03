@@ -28,7 +28,7 @@ h5 {
 }
 
 .green {
-    color: #19e25c;
+    color: rgb(25, 225, 92);
 }
 
 .blue {
@@ -36,11 +36,11 @@ h5 {
 }
 
 .yellow {
-    color: hsl(60, 87%, 46%);
+    color: rgb(219, 219, 15);
 }
 
 .orange {
-    color: hsl(27, 79%, 49%);
+    color: rgb(231, 140, 66);
 }
 
 .violet {
@@ -58,4 +58,68 @@ h5 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* Cream overlay code was taken from Whisky-drop tutorial and changed in background-color property. */
+
+.cream-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(248, 247, 195, 0.4);
+}
+
+/*----------------------------------------------Footer */
+
+.footer-container {
+    margin: 60px 20px 60px 20px
+}
+
+.links {
+    margin: 0px;
+    text-align: center;
+}
+
+/* Code was taken from "Resume-project" tutorial and changed */
+
+.links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    color: rgba(19, 17, 17, 0.932);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.blue-link a i {
+    background-color: rgb(43, 205, 226);
+}
+
+.yellow-link a i {
+    background-color: rgb(219, 219, 15);
+}
+
+.orange-link a i {
+    background-color: rgb(231, 140, 66);
+}
+
+.violet-link a i {
+    background-color: violet;
+}
+
+.links li a i:hover {
+    background: rgb(25, 225, 92);
 }

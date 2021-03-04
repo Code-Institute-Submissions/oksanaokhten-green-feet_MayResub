@@ -82,6 +82,13 @@ h5 {
     background-color: rgba(248, 247, 195, 0.4);
 }
 
+/*----------------------------------------------Jumbotron*/
+
+.jumbotron-text {
+    background-color: transparent;
+    margin-top: 55px;
+}
+
 /*----------------------------------------------Location*/
 
 .location-heading {

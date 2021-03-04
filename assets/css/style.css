@@ -77,10 +77,38 @@ h5 {
     background-color: rgba(248, 247, 195, 0.4);
 }
 
+/*----------------------------------------------Contact*/
+
+.contact-heading {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Code was taken from "Resume-project" tutorial and changed for project needs*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: rgb(25, 225, 92);
+    border: 1px solid rgb(26, 110, 54);
+}
+
+
 /*----------------------------------------------Footer */
 
+.bg-footer {
+    background-color: rgba(248, 247, 195, 0.4);
+}
+
 .footer-container {
-    margin: 60px 20px 60px 20px
+    padding: 60px 20px 60px 20px
 }
 
 .links {
@@ -122,4 +150,16 @@ h5 {
 
 .links li a i:hover {
     background: rgb(25, 225, 92);
+}
+
+/*----------------------------------------------Media*/
+
+@media screen and (min-width: 992px) {
+    
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }

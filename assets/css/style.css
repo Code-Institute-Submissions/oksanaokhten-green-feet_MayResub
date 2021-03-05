@@ -18,8 +18,20 @@ h5 {
     margin: 0px;
 }
 
-#location p {
+#location p,
+#about p {
     margin: 0px;
+}
+
+#location h5,
+#about h5 {
+    font-weight: 600;
+}
+
+.about-heading,
+.location-heading,
+.contact-heading {
+    font-family: 'Akaya Telivigala', cursive;
 }
 
 /*----------------------------------------------Navigation*/
@@ -89,19 +101,39 @@ h5 {
     margin-top: 55px;
 }
 
+.btn-t {
+    background-color: rgb(25, 225, 92, .2);
+    border: 1px solid rgb(25, 225, 92);
+}
+
+/*----------------------------------------------About*/
+
+.about-heading {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.about-column {
+    padding: 0px 25px;
+}
+
 /*----------------------------------------------Location*/
 
 .location-heading {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .location-column {
     padding: 0px 25px;
 }
 
-#location h5 {
-    font-weight: 600;
+.bg-location {
+    background-color: rgba(248, 247, 195, 0.4);
+}
+
+.logo {
+    font-family: 'Akaya Telivigala', cursive;
 }
 
 /*----------------------------------------------Google Map*/
@@ -115,8 +147,8 @@ div#map {
 /*----------------------------------------------Contact*/
 
 .contact-heading {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 /* Code was taken from "Resume-project" tutorial and changed for project needs*/

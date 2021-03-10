@@ -98,7 +98,7 @@ h5 {
 
 .jumbotron-text {
     background-color: transparent;
-    margin-top: 55px;
+    margin-top: 65px;
 }
 
 .btn-t {
@@ -229,4 +229,24 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+@media screen and (max-width:320px) {
+
+.jumbotron-text {
+    margin-top: 15px;
+}
+
+#text h1 {
+    font-size: 2.2rem;
+}
+
+#text h3 {
+    font-size: 1.4rem;
+}
+
+#text h5 {
+    font-size: 1.2rem;
+}
+
 }

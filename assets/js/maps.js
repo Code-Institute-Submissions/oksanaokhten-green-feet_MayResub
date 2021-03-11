@@ -22,12 +22,15 @@ function initMap() {
             position: location,
             label: labels[i % labels.length]
         });
+
+        /*Code for addListener was taken from https://developers.google.com/maps/documentation/javascript/events and added by my Mentor. */
+
+        marker.addListener("click", () => {
+            window.open("https://calendly.com/green-feet/book-a-treatment");
+        });
+
         return marker;
     });
-
-    /*marker.addEventListener("click", function() {
-        return `<a href="https://calendly.com/green-feet/book-a-treatment" target="_blank"></a>`
-    });*/
 
     new MarkerClusterer(map, markers, {
     imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});

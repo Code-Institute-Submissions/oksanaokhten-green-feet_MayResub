@@ -91,7 +91,7 @@ h5 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(248, 247, 195, 0.4);
+    background-color: rgba(20, 20, 1, 0.4);
 }
 
 /*----------------------------------------------Jumbotron*/
@@ -99,9 +99,11 @@ h5 {
 .jumbotron-text {
     background-color: transparent;
     margin-top: 65px;
+    color: #fff;
 }
 
 .btn-t {
+    color: #fff;
     background-color: rgb(25, 225, 92, .2);
     border: 1px solid rgb(25, 225, 92);
 }
@@ -221,6 +223,10 @@ button[type="submit"] {
 
 .links li a i:hover {
     background: rgb(25, 225, 92);
+}
+
+footer p {
+    font-size: small;
 }
 
 /*----------------------------------------------Media*/

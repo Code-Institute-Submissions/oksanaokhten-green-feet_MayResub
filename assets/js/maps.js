@@ -18,11 +18,16 @@ function initMap() {
     ];
 
     var markers = locations.map(function(location, i) {
-        return new google.maps.Marker({
+        var marker = new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
         });
-    })
+        return marker;
+    });
+
+    /*marker.addEventListener("click", function() {
+        return `<a href="https://calendly.com/green-feet/book-a-treatment" target="_blank"></a>`
+    });*/
 
     new MarkerClusterer(map, markers, {
     imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});

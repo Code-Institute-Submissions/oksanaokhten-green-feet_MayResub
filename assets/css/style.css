@@ -91,7 +91,7 @@ h5 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(20, 20, 1, 0.4);
+    background-color: rgba(17, 17, 16, 0.4);
 }
 
 /*----------------------------------------------Jumbotron*/
@@ -241,22 +241,39 @@ footer p {
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (min-width: 1600px) {
 
-.jumbotron-text {
+    .jumbotron-text {
+    margin-top: 140px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .jumbotron-text {
     margin-top: 15px;
+    }
+
+    #text h1 {
+        font-size: 2.2rem;
+    }
+
+    #text h3 {
+        font-size: 1.4rem;
+    }
+
+    #text h5 {
+        font-size: 1.2rem;
+    }
 }
 
-#text h1 {
-    font-size: 2.2rem;
-}
+@media screen and (max-width: 280px) {
 
-#text h3 {
-    font-size: 1.4rem;
-}
+    #text h1 {
+        font-size: 1.8rem;
+    }
 
-#text h5 {
-    font-size: 1.2rem;
-}
-
+    .navbar {
+    padding: .5rem .5rem;
+    }
 }

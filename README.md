@@ -18,7 +18,7 @@ This website is designed to be responsive on a range of electronic devices and e
         * As a Returning Visitor, I want to find the best way to get in contact with the therapist with any questions I may have.
 * ### **Design**
     * **Colour Scheme**
-        - Two colours were used for this site- primary colour  is beige, secondary is green.
+        - Two colours were used for this site- primary colour is ivory, secondary is green.
     * **Typography**
         The Montserrat and Akaya Telivigala fonts were used throughout all website with Sans Serif and cursive
         as the fallback fonts accordingly, in case chosen fonds are not imported correctly. The Montserrat is the main font, Akaya Telivigala was used for the headings.
@@ -91,7 +91,7 @@ The project was deployed on GitHub Pages using the following steps:
 5. Create new repository or open the location where you want to clone chosen directory.
 6. Use terminal to type __git clone__, and then paste the URL copied in Step 4.
 7. Press Enter. The local clone will be created.
-![Local Clone](/assets/images/)
+![Local Clone](/assets/images/git-clone.png)
 ## **Credits**
 ### **Code**
 - The full page background image code came from [here](https://css-tricks.com/perfect-full-page-background-image/).

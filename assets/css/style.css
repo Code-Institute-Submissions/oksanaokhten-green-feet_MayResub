@@ -18,6 +18,10 @@ h5 {
     margin: 0px;
 }
 
+.wrapper-container {
+    padding: 0px 40px 30px;
+}
+
 #location p,
 #about p {
     margin: 0px;
@@ -166,7 +170,7 @@ div#map {
 }
 
 button[type="submit"] {
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 20px;
     color: #fff;
     background-color: rgb(25, 225, 92);
@@ -181,7 +185,7 @@ button[type="submit"] {
 }
 
 .footer-container {
-    padding: 60px 20px 60px 20px
+    padding: 60px 40px;
 }
 
 .links {
@@ -231,6 +235,13 @@ footer p {
 
 /*----------------------------------------------Media*/
 
+@media screen and (width: 768px) {
+
+    .jumbotron-text {
+        margin-top: 160px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     
     .center-form {
@@ -244,14 +255,21 @@ footer p {
 @media screen and (min-width: 1600px) {
 
     .jumbotron-text {
-    margin-top: 140px;
+        margin-top: 140px;
+    }
+}
+
+@media screen and (min-width: 2280px) {
+
+    .jumbotron-text {
+        margin-top: 260px;
     }
 }
 
 @media screen and (max-width: 375px) {
 
     .jumbotron-text {
-    margin-top: 15px;
+        margin-top: 15px;
     }
 
     #text h1 {
@@ -274,6 +292,6 @@ footer p {
     }
 
     .navbar {
-    padding: .5rem .5rem;
+        padding: .5rem .5rem;
     }
 }

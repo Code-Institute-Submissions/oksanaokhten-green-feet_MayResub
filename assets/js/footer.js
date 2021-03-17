@@ -7,4 +7,4 @@ document.addEventListener("DOMContentLoaded", function() {
         let now = new Date();
         el.innerText = now;
     }
-})
+});

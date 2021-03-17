@@ -290,7 +290,11 @@ footer p {
     }
 }
 
-@media screen and (max-width: 281px) {
+@media screen and (max-width: 320px) {
+
+    .jumbotron-text {
+        margin-top: 0px;
+    }
 
     #text h1 {
         font-size: 1.6rem;

@@ -4,6 +4,7 @@
 This is the main marketing website for the registered reflexologists and their company "Green Feet".
 This website is designed to be responsive on a range of electronic devices and easy to navigate for potential and existing clients.
 
+![Green Feet](/assets/images/all-screens.png)
 ## **User Experience (UX)**
 * ### **User stories**
     * **First Time Visitor Goals**
@@ -64,8 +65,12 @@ This website is designed to be responsive on a range of electronic devices and e
 13. [Calendly](https://calendly.com/)
     - Calendly was used for booking a treatment.
 ## **Testing**
-* [W3C Markup Validator - Results]()
-* [W3C CSS Validator - Results]()
+- W3C Markup Validator
+
+![html-checker](/assets/images/html-validator.png)
+- W3C CSS Validator
+
+![css-checker](/assets/images/css-validator.png)
 ### **Testing User Stories from User Experience (UX) Section**
 * **First Time Visitor Goals**
 * **Returning Visitor Goals**

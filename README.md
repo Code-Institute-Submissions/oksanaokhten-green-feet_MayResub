@@ -1,7 +1,8 @@
 # **Green Feet Website**
 [View the live project here.](https://oksanaokhten.github.io/green-feet/)
 
-This is the main marketing website for the registered reflexologists and their company "Green Feet".
+This is the main marketing website for the registered reflexologists and their clinic
+ "Green Feet".
 This website is designed to be responsive on a range of electronic devices and easy to navigate for potential and existing clients.
 
 ![Green Feet](/assets/images/all-screens.png)
@@ -9,10 +10,10 @@ This website is designed to be responsive on a range of electronic devices and e
 * ### **User stories**
     * **First Time Visitor Goals**
         * As a new visitor to the website, I want to easily navigate throughout the site to find the content.
-        * As a new visitor, I want to read about the company and reflexologist.
+        * As a new visitor, I want to read about the clinic and reflexology.
         * As a new visitor/potential client, I want to look for social media links to find out how trusted and known they are.
         * As a new visitor/potential client, I want to be able to book a reflexology treatment and to know their cost.
-        * As a new visitor/potential client, I want to know the location of the company.
+        * As a new visitor/potential client, I want to know the location of the clinic.
 
     * **Returning Visitor Goals**
         * As a Returning Visitor, I want to find information about reflexology treatment.
@@ -21,11 +22,11 @@ This website is designed to be responsive on a range of electronic devices and e
     * **Colour Scheme**
         - Two colours were used for this site- primary colour is ivory, secondary is green.
     * **Typography**
-        The Montserrat and Akaya Telivigala fonts were used throughout all website with Sans Serif and cursive
-        as the fallback fonts accordingly, in case chosen fonds are not imported correctly. The Montserrat is the main font, Akaya Telivigala was used for the headings.
-        Both of chosen fonts look attractive and easy to read.
+        -    The Montserrat and Akaya Telivigala fonts were used throughout all website with Sans Serif and cursive
+            as the fallback fonts accordingly, in case chosen fonds are not imported correctly. The Montserrat is the main font, Akaya Telivigala was used for the headings.
+            Both of chosen fonts look attractive and easy to read.
     * **Imagery**
-        - The large background image with baby's feet were choosen to make the website users smile and feel relaxed.
+        - The large background image with baby's feet were choosen to make the website users feel relaxed and content.
 * ### **Wireframes**
     * **Home Page for iPhone, iPad and desktop:** 
     ![Green Feet](/assets/images/green.feet.png)
@@ -73,9 +74,37 @@ This website is designed to be responsive on a range of electronic devices and e
 ![css-checker](/assets/images/css-validator.png)
 ### **Testing User Stories from User Experience (UX) Section**
 * **First Time Visitor Goals**
+    * As a new visitor to the website, I want to easily navigate throughout the site to find the content.
+        - Upon entering the site, a new visitor can observe, on the top of the page, a navigation bar with links, 
+          which clearly describes the content of the sections, as website contains only one page.
+        - Underneath there is a Hero Image with Text and a "Discover More" call to action button.
+        - In the site, a new visitor will find few internal and external links which lead to important content.
+        - External links are open in new browser tabs to ensure the user can easily get back to the website.
+    * As a new visitor, I want to read about the clinic and reflexology. 
+        - To read information about the clinic and the treatment, the user could 
+          click the call to action button on Hero Image, scroll down or click link "About", three of them will lead to this information.
+    * As a new visitor/potential client, I want to look for social media links to find out how trusted and known they are.
+        - A new visitor/potential client can find Social Links in the footer. Every link change the color to green when hovering over it.
+    * As a new visitor/potential client, I want to be able to book a reflexology treatment and to know their cost.
+        - Treatment duration and cost information, a new visitor/potential client can find in "Treatment" part of "About" section. There are five options
+          to book the reflexology treatment: 1) press on booking link; 2) read the instruction in "Location" section and press on choosen clinic marker on Google Map; 
+          3) by phone, using 24/7 booking line; 4) by email; 5) using Contact Form in "Contact" section.         
+    * As a new visitor/potential client, I want to know the location of the clinic.
+        - In section "Location", the addreses of three clinics are shown. Also, a new visitor/potential client
+          can find the nearest clinic and their location on Google Maps which provided to the website.
 * **Returning Visitor Goals**
+    * As a Returning Visitor, I want to find information about reflexology treatment.
+        - All information about reflexology a Returning Visitor can find in parts "Treatment" and "Benefits" section "About".
+    * As a Returning Visitor, I want to find the best way to get in contact with the therapist with any questions I may have.
+        - Contact Form in section "Contact" is provided to write a message to any therapist and ask the questions the Returning Visitor/Client may have.
 ### **Further Testing**
+- Many tests were done on Google Chrome, inspecting how the site looks on various devises: desktop, laptop, iPad and the range of mobile phones.
+- Google Maps were tested to be visible on the site and have the clickable markers.
+- Some tests were done on EmailJS to be sure that messages from Contact Form go to my e-mail. 
+- My friend helps to review the site and documentation to point out any grammar and user experience issues.
 ### **Known Bugs**
+- On my Galaxy S10 Hero-image is jumps (getting a little bigger) when I start scrolling the page. 
+  And scrolling process isn't smooth through the image. Light grey strip is shown for a moment on the bottom of it.
 ## **Deployment**
 ### **GitHub Pages**
 The project was deployed on GitHub Pages using the following steps:

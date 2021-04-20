@@ -100,9 +100,20 @@ h5 {
 
 /*----------------------------------------------Jumbotron*/
 
+.btn-mode {
+    font-size: small;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #fff;
+    background-color: rgb(43, 205, 226, .4);
+    border: 1px solid rgb(8, 103, 116);
+    margin-bottom: 35px;
+}
+
 .jumbotron-text {
     background-color: transparent;
-    margin-top: 65px;
     color: #fff;
 }
 
@@ -147,6 +158,11 @@ h5 {
     background-color: rgba(248, 247, 195, 0.4);
 }
 
+.bg-location-dark {
+    background-color: rgb(17, 71, 58);
+    color: rgb(240, 240, 144);
+}
+
 .logo {
     font-family: 'Akaya Telivigala', cursive;
 }
@@ -187,6 +203,11 @@ button[type="submit"] {
 
 .bg-footer {
     background-color: rgba(248, 247, 195, 0.4);
+}
+
+.bg-footer-dark {
+    background-color: rgb(17, 71, 58);
+    color: rgb(240, 240, 144);
 }
 
 .footer-container {

@@ -16,6 +16,7 @@ function darkMode() {
     $(".charity-btn").css("color","#fafafa");
     $("#location").removeClass("bg-location").addClass("bg-location-dark");
     $("#contact").removeClass("bg-light").addClass("bg-dark").css("color", "#fafafa");
+    $(".form-btn").css("color", "#fafafa");
     $("#footer").removeClass("bg-footer").addClass("bg-footer-dark");
 };
 
@@ -26,5 +27,6 @@ function lightMode() {
     $(".charity-btn").css("color","#212529");
     $("#location").removeClass("bg-location-dark").addClass("bg-location");
     $("#contact").removeClass("bg-dark").addClass("bg-light").css("color", "#212529");
+    $(".form-btn").css("color","#212529");
     $("#footer").removeClass("bg-footer-dark").addClass("bg-footer");
 }

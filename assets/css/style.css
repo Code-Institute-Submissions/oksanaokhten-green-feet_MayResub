@@ -189,6 +189,7 @@ div#map {
 }
 
 button[type="submit"] {
+    color: #212529;
     margin-top: 35px;
     margin-bottom: 20px;
 }

@@ -140,6 +140,7 @@ h5 {
 }
 .charity-btn {
     margin: 15px 0px;
+    color: #212529;
 }
 
 /*----------------------------------------------Location*/
@@ -192,6 +193,7 @@ div#map {
 button[type="submit"] {
     margin-top: 35px;
     margin-bottom: 20px;
+    color: #212529;
 }
 
 

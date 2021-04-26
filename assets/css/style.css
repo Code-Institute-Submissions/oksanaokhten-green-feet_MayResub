@@ -95,7 +95,7 @@ h5 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(17, 17, 16, 0.4);
+    background-color: rgba(17, 17, 16, 0.5);
 }
 
 /*----------------------------------------------Jumbotron*/
@@ -115,6 +115,7 @@ h5 {
 .jumbotron-text {
     background-color: transparent;
     color: #fff;
+    margin-top: 80px;
 }
 
 .btn-t {

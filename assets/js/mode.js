@@ -1,13 +1,13 @@
-function changingMode() {
-    let el = document.getElementById("mode");
-    if (el.innerText == "Dark mode") {
-        el.innerText = "Light mode";
+let el = document.getElementById("mode");
+el.addEventListener("click", function() {
+    if (el.classList == "fas fa-moon") {
+        el.classList = "far fa-moon";
         darkMode();
     } else {
-        el.innerText = "Dark mode";
-        lightMode();      
+        el.classList = "fas fa-moon";
+        lightMode();
     }
-};
+});
 
 function darkMode() {
     $("nav").removeClass("bg-light").removeClass("navbar-light").addClass("bg-dark").addClass("navbar-dark");

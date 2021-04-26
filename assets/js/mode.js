@@ -2,10 +2,10 @@ function changingMode() {
     let el = document.getElementById("mode");
     if (el.innerText == "Dark mode") {
         el.innerText = "Light mode";
-        darkMode();  
+        darkMode();
     } else {
         el.innerText = "Dark mode";
-        lightMode();     
+        lightMode();      
     }
 };
 

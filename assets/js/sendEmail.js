@@ -11,6 +11,12 @@ function sendMail(contactForm) {
             console.log("SUCCESS", response);
             let el = document.getElementById("form-submit");
             el.innerText = "Message Sent";
+
+            //This code was written by my mentor to prevent a console error and change inner text after two seconds.
+            let timeoutRef = setTimeout(function() {
+                el.innerText = "Submit";
+                clearTimeout(timeoutRef);
+            }, 2000);
         },
         function(error) {
             console.log("FAILED", error);

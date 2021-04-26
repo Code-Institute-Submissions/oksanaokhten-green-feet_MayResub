@@ -216,11 +216,6 @@ button[type="submit"] {
 
 /* Code was taken from "Resume-project" tutorial and changed */
 
-.rate {
-    padding: 0;
-    width: 33px;
-}
-
 .links li a i {
     width: 32px;
     height: 32px;

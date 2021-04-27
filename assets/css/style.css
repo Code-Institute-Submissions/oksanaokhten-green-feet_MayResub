@@ -100,18 +100,6 @@ h5 {
 
 /*----------------------------------------------Jumbotron*/
 
-.btn-mode {
-    font-size: small;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: transparent;
-    color: #fff;
-    background-color: rgb(43, 205, 226, .4);
-    border: 1px solid rgb(8, 103, 116);
-    margin-bottom: 35px;
-}
-
 .jumbotron-text {
     background-color: transparent;
     color: #fff;
@@ -123,6 +111,17 @@ h5 {
     background-color: rgb(25, 225, 92, .2);
     border: 1px solid rgb(25, 225, 92);
 }
+
+.btn-t:hover {
+    color: #fff;
+    background-color: rgb(25, 225, 92, 0.6);
+}
+
+.btn-info {
+    color: #fff;
+    background-color: rgb(43, 205, 226, 0.5);
+    border: 1px solid rgb(8, 169, 190);
+} 
 
 /*----------------------------------------------About*/
 
@@ -138,9 +137,19 @@ h5 {
 .sun {
     font-size: 40px;
 }
-.charity-btn {
+
+button[type="button"] {
     margin: 15px 0px;
+}
+
+.button {
     color: #212529;
+    background-color: rgb(25, 225, 92, .2);
+    border: 1px solid rgb(25, 225, 92);
+}
+
+.button:hover {
+    background-color: rgb(25, 225, 92, 0.6);
 }
 
 /*----------------------------------------------Location*/
@@ -193,9 +202,7 @@ div#map {
 button[type="submit"] {
     margin-top: 35px;
     margin-bottom: 20px;
-    color: #212529;
 }
-
 
 /*----------------------------------------------Footer */
 

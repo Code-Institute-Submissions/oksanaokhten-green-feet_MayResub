@@ -1,13 +1,15 @@
-let el = document.getElementById("mode");
-el.addEventListener("click", function() {
-    if (el.classList == "far fa-moon") {
-        el.classList = "fas fa-moon";
-        darkMode();
-    } else {
-        el.classList = "far fa-moon";
-        lightMode();
-    }
-});
+function changeMode() {
+    let el = document.getElementById("mode");
+    el.addEventListener("click", function() {
+        if (el.classList == "far fa-moon") {
+            el.classList = "fas fa-moon";
+            darkMode();
+        } else {
+            el.classList = "far fa-moon";
+            lightMode();
+        }
+    });
+};
 
 function darkMode() {
     $("nav").removeClass("bg-light").removeClass("navbar-light").addClass("bg-dark").addClass("navbar-dark");
@@ -30,3 +32,5 @@ function lightMode() {
     $("#contact").removeClass("bg-dark").addClass("bg-light").css("color", "#212529");
     $("#footer").removeClass("bg-footer-dark").addClass("bg-footer");
 };
+
+changeMode();

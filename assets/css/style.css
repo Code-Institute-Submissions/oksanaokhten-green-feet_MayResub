@@ -152,6 +152,15 @@ button[type="button"] {
     background-color: rgb(25, 225, 92, 0.6);
 }
 
+#input-amount {
+    width: 81.86px;
+    height: 30px;
+}
+
+.clinic-donation {
+    margin: 7px 0px;
+}
+
 /*----------------------------------------------Location*/
 
 .location-heading {
@@ -224,7 +233,7 @@ button[type="submit"] {
 }
 
 .margins {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .open-close {

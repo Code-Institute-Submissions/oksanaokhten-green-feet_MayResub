@@ -79,11 +79,14 @@
                                     <p>
                                         From every payment we take <strong>7.5 %</strong> to buy toys for children who are patients in CUH. 
                                     </p>
-                                    <p>Click the button to find out how much we donate:</p>
+                                    <p>Enter amount of your reflexology treatments with us:</p>
                                     <div>
-                                        <button onclick="clientPartOfCharity(50, 0.075)" class="btn btn-md button charity-and-submit" type="button">Charity</button>
+                                        <input id="input-amount" name="answer" type="number">
                                     </div>
-                                    <p><span id="toys"></span></p><br>
+                                    <div class= "clinic-donation">
+                                        <button id="charity" data-type="submit" class="btn btn-md button charity-and-submit open-close">Submit</button>
+                                    </div>
+                                    <p><span id="donation"></span></p><br>
                                 </div>
                             </div>
                         </div>

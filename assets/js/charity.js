@@ -20,10 +20,7 @@ function helpKids() {
         if (event.key === "Enter") {
             amountCalculation(50, 0.075);
         };
-    });
-
-    document.getElementById("input-amount").value = ""; // Erases the last typed answer
-    document.getElementById("input-amount").focus(); // Puts the cursor in the answer box
+    });   
 };
 
 helpKids();

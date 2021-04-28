@@ -16,7 +16,7 @@ function closeButton() {
 function displayTime() {
     let el = document.getElementById("time");
     let now = new Date();
-    el.innerText = `You arrived on ${now}`;
+    el.innerText = `Today is ${now}.`;
 };
 
 function removeText() {

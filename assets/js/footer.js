@@ -1,4 +1,4 @@
-function whenArrive() {
+function showTimeDateZone() {
     let button = document.getElementById("arrive");
     button.addEventListener("click", function() {
         displayTime();
@@ -9,8 +9,9 @@ function closeButton() {
     let button = document.getElementById("close");
     button.addEventListener("click", function() {
         removeText();
-    })
-}
+    });
+};
+
 //Code was taken from Java Script tutorial and changed for this project needs.
 
 function displayTime() {
@@ -24,6 +25,6 @@ function removeText() {
     el.innerText = ``;
 };
 
-whenArrive();
+showTimeDateZone();
 
 closeButton();

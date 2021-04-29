@@ -9,6 +9,7 @@ This website is designed to be responsive on a range of electronic devices and e
 ## **User Experience (UX)**
 * ### **User stories**
     * **First Time Visitor Goals**
+        * As a new visitor, I want to easily understand the purpose of website and see an image, which represents it.
         * As a new visitor to the website, I want to easily navigate throughout the site to find the content.
         * As a new visitor, I want to read about the clinic and reflexology.
         * As a new visitor/potential client, I want to look for social media links to find out how trusted and known they are.
@@ -20,7 +21,7 @@ This website is designed to be responsive on a range of electronic devices and e
         * As a Returning Visitor, I want to find the best way to get in contact with the therapist with any questions I may have.
 * ### **Design**
     * **Colour Scheme**
-        - Two colours were used for this site- primary colour is ivory, secondary is green.
+        - Two colours were used for this site- primary colour is ivory, secondary is green. For a dark Mode I choose grey/dark-green background and secondary color is teal.
     * **Typography**
         -    The Montserrat and Akaya Telivigala fonts were used throughout all website with Sans Serif and cursive
             as the fallback fonts accordingly, in case chosen fonds are not imported correctly. The Montserrat is the main font, Akaya Telivigala was used for the headings.
@@ -74,10 +75,13 @@ This website is designed to be responsive on a range of electronic devices and e
 ![css-checker](/assets/images/css-validator.png)
 ### **Testing User Stories from User Experience (UX) Section**
 * **First Time Visitor Goals**
+    * As a new visitor, I want to easily understand the purpose of website and see an image, which represents it.
+        - Upon entering the site, a new visitor greeted with a bright name of the clinic and easily readable navigation bar. Underneath there is a full page Hero Image with a large text that represent what clinic is offer.
+        - The Hero image of baby's feet shows the age when the treatment could be started.
     * As a new visitor to the website, I want to easily navigate throughout the site to find the content.
-        - Upon entering the site, a new visitor can observe, on the top of the page, a navigation bar with links, 
-          which clearly describes the content of the sections, as website contains only one page.
-        - Underneath there is a Hero Image with Text and a "Discover More" call to action button.
+        - A new visitor can observe, on the top of the page, a navigation bar with links, 
+          which clearly describes the content of the sections, as website contains only one page.  
+        - Hero Image has a "Discover More" call to action button.
         - In the site, a new visitor will find few internal and external links which lead to important content.
         - External links are open in new browser tabs to ensure the user can easily get back to the website.
     * As a new visitor, I want to read about the clinic and reflexology. 
@@ -105,6 +109,7 @@ This website is designed to be responsive on a range of electronic devices and e
 ### **Known Bugs**
 - On my Galaxy S10 Hero-image is jumps (getting a little bigger) when I start scrolling the page. 
   And scrolling process isn't smooth through the image. Light grey strip is shown for a moment on the bottom of it.
+  After changing the Hero-Image size to smaller version, loading process is quick and scrolling is smooth.
 ## **Deployment**
 ### **GitHub Pages**
 The project was deployed on GitHub Pages using the following steps:

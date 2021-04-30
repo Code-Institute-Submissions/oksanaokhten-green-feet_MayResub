@@ -1,11 +1,11 @@
 function changeMode() {
     let el = document.getElementById("mode");
     el.addEventListener("click", function() {
-        if (el.classList == "far fa-moon") {
-            el.classList = "fas fa-moon";
+        if (el.classList == "fas fa-moon") {
+            el.classList = "fas fa-sun";
             darkMode();
         } else {
-            el.classList = "far fa-moon";
+            el.classList = "fas fa-moon";
             lightMode();
         }
     });

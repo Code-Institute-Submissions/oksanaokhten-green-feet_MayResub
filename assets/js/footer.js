@@ -1,30 +1,15 @@
-function showTimeDateZone() {
-    let button = document.getElementById("arrive");
-    button.addEventListener("click", function() {
+//Code was taken from Java Script tutorial.
+
+function showDateTime() {
+    document.addEventListener("DOMContentLoaded", function() {
         displayTime();
     });
 };
 
-function closeButton() {
-    let button = document.getElementById("close");
-    button.addEventListener("click", function() {
-        removeText();
-    });
-};
-
-//Code was taken from Java Script tutorial and changed for this project needs.
-
 function displayTime() {
     let el = document.getElementById("time");
     let now = new Date();
-    el.innerText = `Today is ${now}.`;
+    el.innerText = `This page was loaded on ${now}.`;
 };
 
-function removeText() {
-    let el = document.getElementById("time");
-    el.innerText = ``;
-};
-
-showTimeDateZone();
-
-closeButton();
+showDateTime();

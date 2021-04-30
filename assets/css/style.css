@@ -68,6 +68,10 @@ h5 {
     color: violet;
 }
 
+#mode {
+    cursor: pointer;
+}
+
 /*----------------------------------------------Hero image*/
 
 /* Hero image code was taken from Whisky-drop tutorial and changed in background property. */

@@ -104,7 +104,10 @@ This website is designed to be responsive on a range of electronic devices and e
 ### **Further Testing**
 - Many tests were done on Google Chrome, inspecting how the site looks on various devises: desktop, laptop, iPad and the range of mobile phones.
 - Google Maps were tested to be visible on the site and have the clickable markers.
-- Some tests were done on EmailJS to be sure that messages from Contact Form go to my e-mail. 
+- Some tests were done on EmailJS to be sure that messages from Contact Form go to my e-mail. Feedback from Contact Form was implemented.
+- A Dark Theme of website was tested to be sure that section's background, text colour and colour of buttons are changed.
+- Input was tested in charity.js, alarm was set if its smaller then 1.
+- In footer, two buttons were tested for right action- one to write data&time, second to close it. 
 - My friend helps to review the site and documentation to point out any grammar and user experience issues.
 ### **Known Bugs**
 - On my Galaxy S10 Hero-image is jumps (getting a little bigger) when I start scrolling the page. 
@@ -141,3 +144,4 @@ The project was deployed on GitHub Pages using the following steps:
 - The Front Page Photo were obtained from [Unsplash.com](https://unsplash.com/photos/ZwjFuJ7ebpk).
 ### **Acknowledgements**
 - My Mentor for continuous helpful feedback, ideas and support.
+- Student Care at Code Institute for their support and feedback.

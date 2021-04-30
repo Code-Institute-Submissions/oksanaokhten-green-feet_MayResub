@@ -7,9 +7,15 @@ function charity() {
 
 function amountCalculation(clientPayment, partOfPayment) {
     let userAmount = parseInt(document.getElementById("input-amount").value);
-    let amount = clientPayment * partOfPayment * userAmount;
-    let el = document.getElementById("donation");
-    el.innerText = `To the Fundraising went ${amount} euro.`;
+    let amount = 0;
+    if (userAmount > 0) {
+        amount = clientPayment * partOfPayment * userAmount;
+        let el = document.getElementById("donation");
+        el.innerText = `To the Fundraising went ${amount} euro.`;
+    } else {
+        alert("Please enter amount of treatments with us! ");
+    };
+    
 };
 
 charity();

@@ -73,6 +73,9 @@ This website is designed to be responsive on a range of electronic devices and e
 - W3C CSS Validator
 
 ![css-checker](/assets/images/css-validator.png)
+- Lighthouse report
+
+![lighthouse report](/assets/images/lighthouse-report.png)
 ### **Testing User Stories from User Experience (UX) Section**
 * **First Time Visitor Goals**
     * As a new visitor, I want to easily understand the purpose of website and see an image, which represents it.

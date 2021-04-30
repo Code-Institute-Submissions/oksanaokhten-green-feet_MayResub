@@ -112,13 +112,13 @@ h5 {
 
 .btn-t {
     color: #fff;
-    background-color: rgb(25, 225, 92, .2);
+    background-color: rgb(25, 225, 92, .5);
     border: 1px solid rgb(25, 225, 92);
 }
 
 .btn-t:hover {
     color: #fff;
-    background-color: rgb(25, 225, 92, 0.6);
+    background-color: rgb(25, 225, 92, 0.7);
 }
 
 .btn-info {
@@ -148,12 +148,12 @@ button[type="button"] {
 
 .button {
     color: #212529;
-    background-color: rgb(25, 225, 92, .2);
+    background-color: rgb(25, 225, 92, .5);
     border: 1px solid rgb(25, 225, 92);
 }
 
 .button:hover {
-    background-color: rgb(25, 225, 92, 0.6);
+    background-color: rgb(25, 225, 92, 0.7);
 }
 
 #input-amount {
@@ -235,12 +235,6 @@ button[type="submit"] {
 
 .footer-container {
     padding: 60px 40px;
-}
-
-.open-close {
-    width: 103px;
-    margin-right: 20px;
-    margin-bottom: 24px;
 }
 
 .links {

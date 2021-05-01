@@ -79,38 +79,51 @@ This website is designed to be responsive on a range of electronic devices and e
 ### **Testing User Stories from User Experience (UX) Section**
 * **First Time Visitor Goals**
     * As a new visitor, I want to easily understand the purpose of website and see an image, which represents it.
-        - Upon entering the site, a new visitor greeted with a bright name of the clinic and easily readable navigation bar. Underneath there is a full page Hero Image with a large text that represent what clinic is offer.
+        - Upon entering the site, a new visitor greeted with a bright name of the clinic and easily readable navigation bar with links to sections of the page and Dark mode icon. Underneath there is a full page Hero Image with a large text that represent what clinic is offer.
         - The Hero image of baby's feet shows the age when the treatment could be started.
+
+        ![Light/dark mode](/assets/images/light-dark-mode.png)   
     * As a new visitor to the website, I want to easily navigate throughout the site to find the content.
         - A new visitor can observe, on the top of the page, a navigation bar with links, 
-          which clearly describes the content of the sections, as website contains only one page.  
-        - Hero Image has a "Discover More" call to action button.
-        - In the site, a new visitor will find few internal and external links which lead to important content.
-        - External links are open in new browser tabs to ensure the user can easily get back to the website.
+          which clearly describe the content of the sections, as website has only one page.
+        - A visitor could interact with the site by changing color theme of it, pressing on icon in nav bar.  
+        - Hero Image has a "Book Now" call to action button, click on it leads to a booking page.
+        - In the site, a new visitor will find a few external links which are opening in new browser tabs to ensure the user can easily get back to the website.
+        
     * As a new visitor, I want to read about the clinic and reflexology. 
-        - To read information about the clinic and the treatment, the user could 
-          click the call to action button on Hero Image, scroll down or click link "About", three of them will lead to this information.
+        - To read information about the clinic and treatment, the user could scroll down or click link "About", both of them will lead to this information.
+
+        ![About](/assets/images/about.png)  
     * As a new visitor/potential client, I want to look for social media links to find out how trusted and known they are.
-        - A new visitor/potential client can find Social Links in the footer. Every link change the color to green when hovering over it.
+        - A new visitor/potential client can find Social Links in the footer. Every link goes to clinic's social media and new user could find the benefits of communication through them.
+        - Also, in the footer, a user could see the time when he/she came to this page. It gives an idea how mush time a visitor spend browsing the website. 
+
+        ![Footer](/assets/images/footer.png)
     * As a new visitor/potential client, I want to be able to book a reflexology treatment and to know their cost.
-        - Treatment duration and cost information, a new visitor/potential client can find in "Treatment" part of "About" section. There are five options
-          to book the reflexology treatment: 1) press on booking link; 2) read the instruction in "Location" section and press on choosen clinic marker on Google Map; 
-          3) by phone, using 24/7 booking line; 4) by email; 5) using Contact Form in "Contact" section.         
+        - Treatment duration and cost information, a new visitor/potential client can find in "Treatment" part of "About" section. There are four options
+          to book the reflexology treatment: 1) press on action button in Front Page; 2) read the instruction in "Location" section and press on choosen clinic marker on Google Map; 
+          3) by phone, using 24/7 booking line; 4) by email; 5) using Contact Form in "Contact" section.
+
+        ![Contact form](/assets/images/contact-form.png)           
     * As a new visitor/potential client, I want to know the location of the clinic.
         - In section "Location", the addreses of three clinics are shown. Also, a new visitor/potential client
           can find the nearest clinic and their location on Google Maps which provided to the website.
+
+        ![Booking and location](/assets/images/location.png)
 * **Returning Visitor Goals**
     * As a Returning Visitor, I want to find information about reflexology treatment.
         - All information about reflexology a Returning Visitor can find in parts "Treatment" and "Benefits" section "About".
+        - A returning visitor could interact with the site by entering number of treatments which he/she had or will plan to have. A result will show amount in euro which is going to Fundraising.
     * As a Returning Visitor, I want to find the best way to get in contact with the therapist with any questions I may have.
         - Contact Form in section "Contact" is provided to write a message to any therapist and ask the questions the Returning Visitor/Client may have.
 ### **Further Testing**
 - Many tests were done on Google Chrome, inspecting how the site looks on various devises: desktop, laptop, iPad and the range of mobile phones.
 - Google Maps were tested to be visible on the site and have the clickable markers.
 - Some tests were done on EmailJS to be sure that messages from Contact Form go to my e-mail. Feedback from Contact Form was implemented.
+
+![Testing emailJS](/assets/images/emailjs.png)
 - A Dark Theme of website was tested to be sure that section's background, text colour and colour of buttons are changed.
-- Input was tested in charity.js, alarm was set if its smaller then 1.
-- In footer, two buttons were tested for right action- one to write data&time, second to close it. 
+- Input was tested in charity.js, alarm was set if its smaller then 1. 
 - My friend helps to review the site and documentation to point out any grammar and user experience issues.
 ### **Known Bugs**
 - On my Galaxy S10 Hero-image is jumps (getting a little bigger) when I start scrolling the page. 

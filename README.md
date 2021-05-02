@@ -3,7 +3,7 @@
 
 This is the main marketing website for the registered reflexologists and their clinic
  "Green Feet".
-This website is designed to be responsive on a range of electronic devices and easy to navigate for potential and existing clients.
+This website is designed to be responsive on a range of electronic devices and easily to navigate for potential and existing clients.
 
 ![Green Feet](/assets/images/all-screens.png)
 ## **User Experience (UX)**
@@ -21,7 +21,7 @@ This website is designed to be responsive on a range of electronic devices and e
         * As a Returning Visitor, I want to find the best way to get in contact with the therapist with any questions I may have.
 * ### **Design**
     * **Colour Scheme**
-        - Two colours were used for this site- primary colour is ivory, secondary is green. For a dark Mode I choose grey/dark-green background and secondary color is teal.
+        - For Light colour-scheme were used two colours- primary colour is ivory, secondary is green. For Dark colour-scheme I choose dark grey/green background and secondary color is teal.
     * **Typography**
         -    The Montserrat and Akaya Telivigala fonts were used throughout all website with Sans Serif and cursive
             as the fallback fonts accordingly, in case chosen fonds are not imported correctly. The Montserrat is the main font, Akaya Telivigala was used for the headings.
@@ -79,14 +79,14 @@ This website is designed to be responsive on a range of electronic devices and e
 ### **Testing User Stories from User Experience (UX) Section**
 * **First Time Visitor Goals**
     * As a new visitor, I want to easily understand the purpose of website and see an image, which represents it.
-        - Upon entering the site, a new visitor greeted with a bright name of the clinic and easily readable navigation bar with links to sections of the page and Dark mode icon. Underneath there is a full page Hero Image with a large text that represent what clinic is offer.
+        - Upon entering the site, a new visitor greeted with a bright name of the clinic and easily readable navigation bar with links to sections of the page and Dark colour-scheme icon. Underneath there is a full page Hero Image with a large text that represent what clinic is offer.
         - The Hero image of baby's feet shows the age when the treatment could be started.
 
         ![Light/dark mode](/assets/images/light-dark-mode.png)   
     * As a new visitor to the website, I want to easily navigate throughout the site to find the content.
         - A new visitor can observe, on the top of the page, a navigation bar with links, 
           which clearly describe the content of the sections, as website has only one page.
-        - A visitor could interact with the site by changing color theme of it, pressing on icon in nav bar.  
+        - A visitor could interact with the site by changing colour-scheme of it, pressing on icon in nav bar.  
         - Hero Image has a "Book Now" call to action button, click on it leads to a booking page.
         - In the site, a new visitor will find a few external links which are opening in new browser tabs to ensure the user can easily get back to the website.
         
@@ -95,13 +95,13 @@ This website is designed to be responsive on a range of electronic devices and e
 
         ![About](/assets/images/about.png)  
     * As a new visitor/potential client, I want to look for social media links to find out how trusted and known they are.
-        - A new visitor/potential client can find Social Links in the footer. Every link goes to clinic's social media and new user could find the benefits of communication through them.
-        - Also, in the footer, a user could see the time when he/she came to this page. It gives an idea how mush time a visitor spend browsing the website. 
+        - A new visitor/potential client can find Social Links in the footer. Every link goes to clinic's social media and new user could have the benefits of communication through them.
+        - Also, in the footer, a user could see the time when he/she came to this page. It gives an idea how mush time was spend browsing the website. 
 
         ![Footer](/assets/images/footer.png)
     * As a new visitor/potential client, I want to be able to book a reflexology treatment and to know their cost.
         - Treatment duration and cost information, a new visitor/potential client can find in "Treatment" part of "About" section. There are four options
-          to book the reflexology treatment: 1) press on action button in Front Page; 2) read the instruction in "Location" section and press on choosen clinic marker on Google Map; 
+          to book the reflexology treatment: 1) press the action button on Front Page; 2) read the instruction in "Location" section and press on choosen clinic marker on Google Map; 
           3) by phone, using 24/7 booking line; 4) by email; 5) using Contact Form in "Contact" section.
 
         ![Contact form](/assets/images/contact-form.png)           
@@ -114,6 +114,8 @@ This website is designed to be responsive on a range of electronic devices and e
     * As a Returning Visitor, I want to find information about reflexology treatment.
         - All information about reflexology a Returning Visitor can find in parts "Treatment" and "Benefits" section "About".
         - A returning visitor could interact with the site by entering number of treatments which he/she had or will plan to have. A result will show amount in euro which is going to Fundraising.
+
+        ![Input test](/assets/images/input.png)
     * As a Returning Visitor, I want to find the best way to get in contact with the therapist with any questions I may have.
         - Contact Form in section "Contact" is provided to write a message to any therapist and ask the questions the Returning Visitor/Client may have.
 ### **Further Testing**
@@ -122,9 +124,9 @@ This website is designed to be responsive on a range of electronic devices and e
 - Some tests were done on EmailJS to be sure that messages from Contact Form go to my e-mail. Feedback from Contact Form was implemented.
 
 ![Testing emailJS](/assets/images/emailjs.png)
-- A Dark Theme of website was tested to be sure that section's background, text colour and colour of buttons are changed.
+- A Dark colour-scheme of website was tested to be sure that section's background, text colour and colour of buttons are changed.
 - Input was tested in charity.js, alarm was set if its smaller then 1. 
-- My friend helps to review the site and documentation to point out any grammar and user experience issues.
+- My friend helped to review the site and documentation, some grammar and user experience issues were corrected.
 ### **Known Bugs**
 - On my Galaxy S10 Hero-image is jumps (getting a little bigger) when I start scrolling the page. 
   And scrolling process isn't smooth through the image. Light grey strip is shown for a moment on the bottom of it.
